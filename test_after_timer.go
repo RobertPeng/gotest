@@ -1,19 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+// "fmt"
+// "time"
 
 func init() {
-	Timer()
+	// ATimer()
 }
 
-func Timer() {
-	for {
-		select {
-		case <-time.After(10 * time.Microsecond):
-			fmt.Println("after timer")
-		}
-	}
-}
+// func ATimer() {
+// 	for {
+// 		select {
+// 		case <-time.After(10 * time.Microsecond):
+// 			fmt.Println("after timer")
+// 		}
+// 	}
+// }
